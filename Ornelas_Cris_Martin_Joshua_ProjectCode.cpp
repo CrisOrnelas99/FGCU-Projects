@@ -200,7 +200,7 @@ class SudokuGenerator
         static void removeNums(int board[9][9], bool modifiableSquares[9][9])
         {
             //number of squares to remove(difficulty)
-            int removeCount = 19;
+            int removeCount = 50;
             //loop until numbers that need to be removed are removed
             while (removeCount > 0)
             {   //generate random coordinate
